@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Effets visuels Farata-style */
+.glow-gold {
+  transition: all 0.3s ease;
+}
+.glow-gold:hover {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+}
